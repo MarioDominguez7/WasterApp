@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeOn">
+
+    <!-- Fondo Degradado -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background_on"
+        />
+
+    <!-- Fondo Blanco Atrás-->
+    <ImageView
+        android:id="@+id/imageView1On"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/white_rectangle"
+        />
+
+    <!-- Fondo Blanco -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/whiteradius_background"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2On"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <!-- Imagen de la gota -->
+        <ImageView
+            android:id="@+id/imgHomeOnLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="55dp"
+            android:layout_marginEnd="-40dp"
+            android:scaleX="0.3"
+            android:scaleY="0.3"
+            android:src="@drawable/gotita1" />
+
+        <!-- Texto Bienvenida -->
+        <TextView
+            android:id="@+id/tvHomeOnBienvenidaOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/bienvenida"
+            android:textAlignment="center"
+            android:textColor="@color/azul_oscuro"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/linearLayout3On"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/rectangle_water_level"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2On"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2On"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <!-- Texto Nivel de agua -->
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lvlwater"
+            android:textSize="15dp"
+            android:textColor="@color/azul_gris"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            />
+
+        <!-- Texto Nivel de agua -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvNivelOn"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90%"
+                android:textSize="35dp"
+                android:textColor="@color/amarillo_oscuro"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                />
+            <!-- Texto Nivel de agua -->
+            <TextView
+                android:id="@+id/tvHomeOnEstado"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Llenando"
+                android:textSize="35dp"
+                android:textColor="@color/amarillo_claro"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3On"
+        app:layout_constraintBottom_toBottomOf="@id/imageView1On">
+
+        <mx.tecnm.cdhidalgo.wasterapp.WaterAnimationView
+            android:id="@+id/water_animation_view_On"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+            android:background="@drawable/llave"
+            />
+
+        <!-- Tips Titulo -->
+        <TextView
+            android:id="@+id/tvHomeOnTipTitulo"
+            android:layout_marginTop="50dp"
+            android:layout_width="347.4dp"
+            android:layout_height="185dp"
+            android:text="@string/tipsT"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/dialogo_tips"
+            android:textStyle="bold"
+            android:textColor="@color/amarillo_oscuro"
+            android:textSize="16sp"
+            />
+
+        <!-- Tips Mensaje -->
+        <TextView
+            android:id="@+id/tvHomeOffTips"
+            android:layout_marginTop="85dp"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tipsMOn"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:background="@color/blanco_transparente"
+            />
+
+        <ImageButton
+            android:id="@+id/btnHomeOnOff"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/boton_off"
+            android:text="ON"
+            android:textSize="64dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnHomeOnStadistics"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                android:background="@drawable/grafico_on"
+                />
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#00DDC963"
+                />
+
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#00DDC963"
+                />
+
+            <ImageButton
+                android:id="@+id/btnHomeOnLogOut"
+                android:layout_width="73dp"
+                android:layout_height="73dp"
+                android:background="@drawable/usuario_on"
+                />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

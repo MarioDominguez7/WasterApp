@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- PALETA COLORES OFF -->
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="azul_oscuro">#015266</color>
+    <color name="azul_claro">#358895</color>
+    <color name="azul_gris">#8ca6a5</color>
+    <color name="amarillo_oscuro">#DFA602</color>
+    <color name="amarillo_claro">#DDC963</color>
+    <color name="gris">#C1BDB4</color>
+    <color name="blanco_transparente">#9AFFFFFF</color>
+    <color name="azul_claro_claro">#44929F</color>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Sombra -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#33000000" /> <!-- Color y opacidad de la sombra -->
+            <padding android:left="1dp" android:top="0dp" android:right="1dp" android:bottom="5dp" />
+        </shape>
+    </item>
+
+    <!-- Forma principal -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+</layer-list>

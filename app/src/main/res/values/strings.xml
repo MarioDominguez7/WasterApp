@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WasterApp</string>
+
+    <!-- Login -->
+    <string name="bienvenida">BIENVENID@</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="btnSesion">Iniciar Sesion</string>
+    <string name="aunno">¿Aún no tienes una cuenta?</string>
+    <string name="resgistrarse">¡Registrate!</string>
+    <string name="registro">REGISTRO</string>
+    <string name="nombre">EMAIL DE USUARIO:</string>
+
+    <!-- Home Off -->
+    <string name="lvlwater">NIVEL DEL AGUA:</string>
+
+    <!-- Tips -->
+    <string name="tipsT">¿Sabías qué?</string>
+    <string name="tipsMOn">La Tierra suele conocerse con el sobrenombre de ‘el planeta azul’. Sin embargo, apenas es potable en un 0,025%. </string>
+    <string name="tipsMOff">Tres de cada diez seres humanos (unos 2.100 millones de personas) no disponen de acceso a agua potable en sus hogares. </string>
+
+    <!-- Cerrar Sesion -->
+    <string name="micuenta">Mi Cuenta</string>
+    <string name="cerrar_sesi_n">Cerrar Sesión</string>
+
+</resources>
