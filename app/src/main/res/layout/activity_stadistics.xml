@@ -164,7 +164,8 @@
             android:text="Histórico"
             android:layout_gravity="center_horizontal"
             android:textAppearance="?attr/textAppearanceHeadline6"
-            android:textColor="@color/azul_oscuro"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
             android:textSize="32sp"/>
 
         <TextView
@@ -185,22 +186,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="00:00:00   50 ltrs consumidos   Normal"
+                android:text="Segundos encendida:"
+                android:textSize="18dp"
                 android:textColor="@android:color/black" />
 
             <TextView
+                android:id="@+id/txt_Segundos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
-                android:text="00:00:00   30 ltrs consumidos   Bajo"
+                android:text=""
+                android:textSize="32dp"
                 android:textColor="@android:color/black" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:text="00:00:00   100 ltrs consumidos   Alto"
-                android:textColor="@android:color/black" />
         </LinearLayout>
     </LinearLayout>
 

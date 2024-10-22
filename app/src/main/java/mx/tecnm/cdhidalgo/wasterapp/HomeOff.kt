@@ -60,6 +60,7 @@ class HomeOff : AppCompatActivity() {
         btnLogOutOff.setOnClickListener { startActivity(Intent(this, LogOut::class.java)) }
         btnOn.setOnClickListener {
             setActuator()
+            TimeStorage.horaInicio = System.currentTimeMillis()
             startActivity(Intent(this, HomeOn::class.java))
         }
     }

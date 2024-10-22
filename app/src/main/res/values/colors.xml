@@ -11,4 +11,6 @@
     <color name="gris">#C1BDB4</color>
     <color name="blanco_transparente">#9AFFFFFF</color>
     <color name="azul_claro_claro">#44929F</color>
+    <color name="naranja">#FD8201</color>
+    <color name="otro_azul_oscuro">#013846</color>
 </resources>

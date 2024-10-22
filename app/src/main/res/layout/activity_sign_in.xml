@@ -75,7 +75,8 @@
             android:text="@string/registro"
             android:textAlignment="center"
             android:textSize="32dp"
-            android:textColor="@color/azul_oscuro"
+            android:textColor="@color/naranja"
+            android:textStyle="bold"
             tools:ignore="MissingConstraints"
             />
 
@@ -197,9 +198,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="47dp"
-            android:backgroundTint="@color/amarillo_oscuro"
+            android:backgroundTint="@color/naranja"
             android:text="Registrarme"
             android:textSize="18dp"
+            android:textColor="@color/otro_azul_oscuro"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/llpassword"

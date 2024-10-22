@@ -48,7 +48,8 @@
         android:text="@string/bienvenida"
         android:textAlignment="center"
         android:textSize="32dp"
-        android:textColor="@color/azul_oscuro"
+        android:textColor="@color/naranja"
+        android:textStyle="bold"
         tools:ignore="MissingConstraints"
         android:layout_marginTop="-50dp"
         />
@@ -127,11 +128,13 @@
         android:layout_height="wrap_content"
         android:layout_margin="27dp"
         android:text="@string/btnSesion"
+        android:textColor="@color/otro_azul_oscuro"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/llpassword"
         android:textSize="18dp"
-        android:backgroundTint="@color/amarillo_oscuro"
+        android:backgroundTint="@color/naranja"
         tools:ignore="MissingConstraints" />
 
     <!-- Ajoloyork -->

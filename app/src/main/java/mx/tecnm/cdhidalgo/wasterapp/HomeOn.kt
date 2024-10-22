@@ -50,6 +50,7 @@ class HomeOn : AppCompatActivity() {
         btnStadisticsOn.setOnClickListener { startActivity(Intent(this, Stadistics::class.java)) }
         btnOff.setOnClickListener {
             setActuatorOff()
+            TimeStorage.horaFin = System.currentTimeMillis()
             startActivity(Intent(this, HomeOff::class.java))
         }
         btnLogOutOn.setOnClickListener { startActivity(Intent(this, LogOut::class.java))  }
