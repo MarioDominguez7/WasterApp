@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/logo"/>
+        android:background="@drawable/logov2"/>
 
     <!-- Texto Bienvenida -->
     <TextView
@@ -141,7 +141,7 @@
     <ImageView
         android:layout_width="193.52dp"
         android:layout_height="177dp"
-        android:background="@drawable/ajolotecartelv2"
+        android:background="@drawable/ajolotecartelv3"
         android:layout_marginBottom="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

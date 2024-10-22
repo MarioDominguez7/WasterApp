@@ -27,14 +27,14 @@ class LogOut : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        binding = ActivityLogOutBinding.inflate(layoutInflater)
+        /* binding = ActivityLogOutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Cargar el GIF usando Glide
+        Cargar el GIF usando Glide
         Glide.with(this)
             .asGif()
             .load(R.drawable.saludando)
-            .into(binding.ivLogOut)
+            .into(binding.ivLogOut)*/
 
         btnLogOutButton = findViewById(R.id.btnLogOutHomeOff)
         btnLogOutStadistics = findViewById(R.id.btnLogOutStadistics)

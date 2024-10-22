@@ -12,7 +12,7 @@
     <item>
         <shape android:shape="rectangle">
             <corners android:radius="15dp" />
-            <solid android:color="@color/azul_claro" />
+            <solid android:color="@color/otro_azul_oscuro" />
         </shape>
     </item>
 </layer-list>

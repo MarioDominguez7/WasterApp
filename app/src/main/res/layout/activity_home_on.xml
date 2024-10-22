@@ -52,7 +52,7 @@
             android:layout_marginEnd="-40dp"
             android:scaleX="0.3"
             android:scaleY="0.3"
-            android:src="@drawable/gotita1" />
+            android:src="@drawable/gotita3" />
 
         <!-- Texto Bienvenida -->
         <TextView
@@ -185,7 +185,7 @@
             android:layout_height="140dp"
             android:layout_gravity="center"
             android:layout_marginTop="65dp"
-            android:background="@drawable/boton_off"
+            android:background="@drawable/off"
             android:text="ON"
             android:textSize="64dp" />
 
