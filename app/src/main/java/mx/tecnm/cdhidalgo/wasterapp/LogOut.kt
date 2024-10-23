@@ -26,8 +26,9 @@ class LogOut : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        /* binding = ActivityLogOutBinding.inflate(layoutInflater)
+        setContentView(R.layout.activity_log_out)
+        /* enableEdgeToEdge()
+        binding = ActivityLogOutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         Cargar el GIF usando Glide
@@ -61,10 +62,10 @@ class LogOut : AppCompatActivity() {
             finish()
         }
 
-        ViewCompat.setOnApplyWindowInsetsListener(binding.main) { v, insets ->
+        /*ViewCompat.setOnApplyWindowInsetsListener(binding.main) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-        }
+        }*/
     }
 }
