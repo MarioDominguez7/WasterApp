@@ -128,7 +128,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="27dp"
         android:text="@string/btnSesion"
-        android:textColor="@color/otro_azul_oscuro"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

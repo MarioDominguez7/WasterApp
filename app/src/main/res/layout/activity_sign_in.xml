@@ -201,7 +201,6 @@
             android:backgroundTint="@color/naranja"
             android:text="Registrarme"
             android:textSize="18dp"
-            android:textColor="@color/otro_azul_oscuro"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
