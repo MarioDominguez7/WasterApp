@@ -160,7 +160,7 @@
             android:textAlignment="center"
             android:paddingTop="10dp"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/dialogo_tips"
+            android:background="@drawable/dialogo_tips2"
             android:textStyle="bold"
             android:textColor="@color/amarillo_oscuro"
             android:textSize="16sp"
